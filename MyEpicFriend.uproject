@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.5",
+	"EngineAssociation": "{146B355D-4AAC-9429-CA45-5E9C0FFA28B9}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "MyEpicFriend",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
