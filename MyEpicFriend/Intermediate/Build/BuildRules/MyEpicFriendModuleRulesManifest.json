@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"Z:\\GameDev\\Repos\\MyEpicFriend\\MyEpicFriend\\Source\\MyEpicFriend\\MyEpicFriend.Build.cs",
+		"Z:\\GameDev\\Repos\\MyEpicFriend\\MyEpicFriend\\Plugins\\Edgegap\\Source\\Edgegap\\Edgegap.Build.cs",
+		"Z:\\GameDev\\Repos\\MyEpicFriend\\MyEpicFriend\\Plugins\\Edgegap\\Source\\UCMDHelper\\UCMDHelper.Build.cs",
+		"Z:\\GameDev\\Repos\\MyEpicFriend\\MyEpicFriend\\Source\\MyEpicFriend.Target.cs",
+		"Z:\\GameDev\\Repos\\MyEpicFriend\\MyEpicFriend\\Source\\MyEpicFriendEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.1"
+}

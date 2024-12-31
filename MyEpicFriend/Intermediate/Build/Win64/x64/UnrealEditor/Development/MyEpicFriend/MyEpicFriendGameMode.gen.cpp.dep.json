@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\intermediate\\build\\win64\\unrealeditor\\inc\\myepicfriend\\uht\\myepicfriendgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "z:\\gamedev\\repos\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myepicfriend\\definitions.myepicfriend.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\source\\myepicfriend\\myepicfriendgamemode.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\intermediate\\build\\win64\\unrealeditor\\inc\\myepicfriend\\uht\\myepicfriendgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

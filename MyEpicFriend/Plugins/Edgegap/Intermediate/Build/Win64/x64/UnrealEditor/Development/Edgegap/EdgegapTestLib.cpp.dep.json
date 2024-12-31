@@ -1,0 +1,43 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\source\\edgegap\\private\\edgegaptestlib.cpp",
+        "ProvidedModule": "",
+        "PCH": "z:\\gamedev\\repos\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\edgegap\\definitions.edgegap.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\source\\edgegap\\private\\edgegaptestlib.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\source\\edgegap\\private\\edgegapsettingsdetails.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomization.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\source\\ucmdhelper\\public\\iucmdhelpermodule.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\imagewrapper\\public\\iimagewrapper.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\imagewrapper\\public\\imagewrapperoutputtypes.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\imagewrapper\\public\\iimagewrappermodule.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\source\\edgegap\\private\\edgegapsettings.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\source\\edgegap\\private\\apitoken\\apitokensettings.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\intermediate\\build\\win64\\unrealeditor\\inc\\edgegap\\uht\\apitokensettings.generated.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\edgegap\\intermediate\\build\\win64\\unrealeditor\\inc\\edgegap\\uht\\edgegapsettings.generated.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\plugindisalloweddescriptor.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\projects\\public\\versescope.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\developer\\targetplatform\\public\\interfaces\\itargetplatformmodule.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\editor\\propertyeditor\\public\\detailwidgetrow.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\editor\\propertyeditor\\public\\idetailpropertyrow.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\editor\\propertyeditor\\public\\detailcategorybuilder.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomnodebuilder.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\editor\\propertyeditor\\public\\detailbuildertypes.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\editor\\propertyeditor\\public\\propertyeditorcopypaste.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
