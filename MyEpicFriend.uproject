@@ -3,6 +3,7 @@
 	"EngineAssociation": "{146B355D-4AAC-9429-CA45-5E9C0FFA28B9}",
 	"Category": "",
 	"Description": "",
+	"TargetPlatforms": ["Win64"],
 	"Modules": [
 		{
 			"Name": "MyEpicFriend",

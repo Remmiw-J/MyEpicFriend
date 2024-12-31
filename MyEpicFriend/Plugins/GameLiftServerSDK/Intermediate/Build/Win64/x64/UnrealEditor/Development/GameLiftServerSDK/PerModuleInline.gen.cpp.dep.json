@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\gameliftserversdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameliftserversdk\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "z:\\gamedev\\repos\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\plugins\\gameliftserversdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameliftserversdk\\definitions.gameliftserversdk.h",
+            "z:\\gamedev\\repos\\unrealengine\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

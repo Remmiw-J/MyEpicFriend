@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyEpicFriend.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyEpicFriend.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyEpicFriendEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyEpicFriendServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameLiftServerSDK">
+      <UniqueIdentifier>{5FD945F0-05E1-3CF4-B6C3-6C35B83D070D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameLiftServerSDK\Source">
+      <UniqueIdentifier>{67D143EA-B1AB-31AF-B414-5842E2E105F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK">
+      <UniqueIdentifier>{A7CD7415-D0E2-3B31-B313-700C008D6F0E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\GameLiftServerSDK.Build.cs">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK</Filter>
+    </None>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Private">
+      <UniqueIdentifier>{FF63A175-59C5-397A-B632-E4969D3E2130}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Private\GameLiftServerSDK.cpp">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public">
+      <UniqueIdentifier>{F522C057-EDAC-30D3-A9AD-7336EA6E463D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\GameLiftServerSDK.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\GameLiftServerSDKModels.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws">
+      <UniqueIdentifier>{32DE1A07-9F71-36CD-824E-6D2AA93511A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift">
+      <UniqueIdentifier>{42BE8BCB-7074-3669-9B73-071F0AC6D443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\common">
+      <UniqueIdentifier>{ED02ACFC-D3FC-32FB-B76B-C5A74B9422E2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\common\GameLiftErrors.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\common\GameLift_EXPORTS.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\common\Outcome.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\common</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal">
+      <UniqueIdentifier>{53BB756A-0CC6-3212-A075-DB151FE6FF4A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\GameLiftCommonState.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\GameLiftServerState.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model">
+      <UniqueIdentifier>{7726ED90-071E-3BA2-A6F3-77A8B73F36CF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\ISerializable.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\Message.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\ResponseMessage.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\Uri.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\WebSocketAttributeValue.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\WebSocketGameSession.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\WebSocketPlayer.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\WebSocketPlayerSession.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\WebSocketPlayerSessionStatus.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\adapter">
+      <UniqueIdentifier>{CBA12B9E-3D65-3631-8C54-8CF8259BE6A1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\adapter\DescribePlayerSessionsAdapter.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\adapter\GetFleetRoleCredentialsAdapter.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\adapter\StartMatchBackfillAdapter.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\adapter</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message">
+      <UniqueIdentifier>{62868712-20D1-3A5F-9229-223B74751247}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message\CreateGameSessionMessage.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message\RefreshConnectionMessage.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message\TerminateProcessMessage.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message\UpdateGameSessionMessage.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\message</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request">
+      <UniqueIdentifier>{45FFDD55-171D-35B7-9C5F-4B24D90B87C0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\AcceptPlayerSessionRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\ActivateGameSessionRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\ActivateServerProcessRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\HeartbeatServerProcessRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\RemovePlayerSessionRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\TerminateServerProcessRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\UpdatePlayerSessionCreationPolicyRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\WebSocketDescribePlayerSessionsRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\WebSocketGetComputeCertificateRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\WebSocketGetFleetRoleCredentialsRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\WebSocketStartMatchBackfillRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request\WebSocketStopMatchBackfillRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\request</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response">
+      <UniqueIdentifier>{496E9142-7FB2-3888-833F-B62DAAA72861}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response\WebSocketDescribePlayerSessionsResponse.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response\WebSocketGetComputeCertificateResponse.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response\WebSocketGetFleetRoleCredentialsResponse.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response\WebSocketStartMatchBackfillResponse.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\model\response</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network">
+      <UniqueIdentifier>{AF52EFA8-3C23-3F09-857C-49A99FC3B015}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\GameLiftWebSocketClientManager.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\IGameLiftMessageHandler.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\IWebSocketClientWrapper.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\WebSocketppClientWrapper.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback">
+      <UniqueIdentifier>{B8BB2E9B-67FF-3025-8D49-155902627B1A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\CreateGameSessionCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\DescribePlayerSessionsCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\GetComputeCertificateCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\GetFleetRoleCredentialsCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\RefreshConnectionCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\StartMatchBackfillCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\TerminateProcessCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback\UpdateGameSessionCallback.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\network\callback</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry">
+      <UniqueIdentifier>{1D0B43B9-BF55-3BA2-8AE3-0D2432C99DD3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry\GeometricBackoffRetryStrategy.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry\JitteredGeometricBackoffRetryStrategy.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry\RetryingCallable.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry\RetryStrategy.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\retry</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security">
+      <UniqueIdentifier>{AB68BC03-B4AD-3596-BBE9-840227A592CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security\AwsCredentials.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security\AwsSigV4Utility.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security\ContainerCredentialsFetcher.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security\ContainerMetadataFetcher.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security\ContainerTaskMetadata.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security\SigV4Parameters.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\security</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util">
+      <UniqueIdentifier>{C8FDC1E1-1488-3DC7-9630-C38B8DB33B15}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util\GuidGenerator.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util\HttpClient.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util\JsonHelper.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util\LoggerHelper.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util\UriEncoder.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\internal\util</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server">
+      <UniqueIdentifier>{AD5AC11C-1EBA-304B-B633-D2F8D817A978}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\GameLiftServerAPI.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\LogParameters.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\ProcessParameters.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model">
+      <UniqueIdentifier>{BB0F4AC9-D752-3417-A41C-460B8118E5A7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\AttributeValue.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\DescribePlayerSessionsRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\DescribePlayerSessionsResult.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\GameProperty.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\GameSession.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\GameSessionStatus.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\GetComputeCertificateResult.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\GetFleetRoleCredentialsRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\GetFleetRoleCredentialsResult.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\Player.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\PlayerSession.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\PlayerSessionCreationPolicy.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\PlayerSessionStatus.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\ServerParameters.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\StartMatchBackfillRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\StartMatchBackfillResult.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\StopMatchBackfillRequest.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\UpdateGameSession.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model\UpdateReason.h">
+      <Filter>Plugins\GameLiftServerSDK\Source\GameLiftServerSDK\Public\aws\gamelift\server\model</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\GameLiftServerSDK\GameLiftServerSDK.uplugin">
+      <Filter>Plugins\GameLiftServerSDK</Filter>
+    </None>
+    <Filter Include="Plugins\GameLiftServerSDK\Resources">
+      <UniqueIdentifier>{BBAFB2EE-FD83-35C2-A37D-CDBCE7FB51B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameLiftServerSDK\Resources\Icon128.png">
+      <Filter>Plugins\GameLiftServerSDK\Resources</Filter>
+    </None>
+    <Filter Include="Source\MyEpicFriend">
+      <UniqueIdentifier>{3D2D1AF3-0DC4-37D3-BE43-E15A01B88C4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyEpicFriend\MyEpicFriend.Build.cs">
+      <Filter>Source\MyEpicFriend</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyEpicFriend\MyEpicFriend.cpp">
+      <Filter>Source\MyEpicFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyEpicFriend\MyEpicFriend.h">
+      <Filter>Source\MyEpicFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyEpicFriend\MyEpicFriendCharacter.cpp">
+      <Filter>Source\MyEpicFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyEpicFriend\MyEpicFriendCharacter.h">
+      <Filter>Source\MyEpicFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyEpicFriend\MyEpicFriendGameMode.cpp">
+      <Filter>Source\MyEpicFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyEpicFriend\MyEpicFriendGameMode.h">
+      <Filter>Source\MyEpicFriend</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

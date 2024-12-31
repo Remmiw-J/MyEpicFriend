@@ -1,0 +1,19 @@
+{
+	"Targets": [
+		{
+			"Name": "MyEpicFriend",
+			"Path": "..\\Source\\MyEpicFriend.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyEpicFriendEditor",
+			"Path": "..\\Source\\MyEpicFriendEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "MyEpicFriendServer",
+			"Path": "..\\Source\\MyEpicFriendServer.Target.cs",
+			"Type": "Server"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\source\\myepicfriend\\myepicfriend.cpp",
+        "ProvidedModule": "",
+        "PCH": "z:\\gamedev\\repos\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myepicfriend\\definitions.myepicfriend.h",
+            "z:\\gamedev\\repos\\myepicfriend\\myepicfriend\\source\\myepicfriend\\myepicfriend.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
