@@ -1546,3 +1546,10 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.01-10.05.18:104][489]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1023.777954
 [2025.01.01-10.05.19:104][492]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.01.01-10.05.19:104][492]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1024.444702, Update Interval: 358.278748
+[2025.01.01-10.11.30:823][607]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1396.498047
+[2025.01.01-10.11.31:824][610]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.01-10.11.31:824][610]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1397.164917, Update Interval: 342.956024
+[2025.01.01-10.13.01:597][858]LogAutomationController: Ignoring very large delta of 31.93 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.01.01-10.17.40:972][694]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1766.645386
+[2025.01.01-10.17.41:972][697]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.01-10.17.41:972][697]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1767.311890, Update Interval: 310.155334

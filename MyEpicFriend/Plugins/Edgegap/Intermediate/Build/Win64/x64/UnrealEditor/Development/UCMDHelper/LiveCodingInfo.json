@@ -1,5 +1,9 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.UCMDHelper.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"UCMDHelperModule.cpp.obj"
+		]
 	}
 }

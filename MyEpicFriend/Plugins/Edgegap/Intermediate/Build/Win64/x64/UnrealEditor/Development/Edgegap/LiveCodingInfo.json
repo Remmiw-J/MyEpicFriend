@@ -1,5 +1,16 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.Edgegap.cpp.obj": [
+			"Edgegap.init.gen.cpp.obj",
+			"EdgegapSettings.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"Edgegap.cpp.obj",
+			"APITokenSettings.cpp.obj",
+			"APITokenSettingsCustomization.cpp.obj",
+			"EdgegapSettings.cpp.obj",
+			"EdgegapSettingsDetails.cpp.obj",
+			"EdgegapTestLib.cpp.obj"
+		]
 	}
 }

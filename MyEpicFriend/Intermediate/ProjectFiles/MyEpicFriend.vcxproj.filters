@@ -53,5 +53,8 @@
     <ClCompile Include="..\..\Source\MyEpicFriend\MyEpicFriendGameMode.h">
       <Filter>Source\MyEpicFriend</Filter>
     </ClCompile>
+    <None Include="MyEpicFriendServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
   </ItemGroup>
 </Project>
