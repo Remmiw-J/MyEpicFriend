@@ -1615,3 +1615,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.02-10.25.51:172][ 15]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.01.02-10.25.51:841][ 17]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-onhW0BWsrEKImki4dSEKZg-wPXqCMZxhkeXug3U6DRGHQ]
 [2025.01.02-10.27.05:260][512]LogDerivedDataCache: ../../../Engine/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.01.02-10.31.18:321][271]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 340.839844
+[2025.01.02-10.31.19:320][274]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.02-10.31.19:320][274]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 341.515167, Update Interval: 321.506409
